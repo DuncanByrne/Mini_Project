@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /* CSS Begins */
+        /* I found that using the <style> under <head>, was much easier for me to create colors, displays and fonts on the website.
+    I was also having trouble with linking the html amd CSS stylesheet. */
+        body {
+            background-color: papayawhip;
+        }
+
+        h1 {
+            color: midnightblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            color: midnightblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        footer {
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: midnightblue;
+        }
+
+        h2 {
+            color: midnightblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            ;
+        }
+
+        a {
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 150%;
+        }
+
+        header {
+            background-color: darkgrey;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        /* CSS ends */
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My New Website</h1>
+        <div>
+            <a class="nav-link" href="https://github.com/DuncanByrne">Github</a>
+            <a class="nav-link" href="https://account.microsoft.com/profile/?refd=outlook.live.com">Email</a>
+            <a class="nav-link" href="https://columbia.bootcampcontent.com/DuncanTByrne">GitLab</a>
+        </div>
+    </header>
+    <main>
+        <section id="welcome">
+            <h2>Mother Earth</h2>
+            <img src="https://images.immediate.co.uk/production/volatile/sites/7/2018/02/Earth-from-space-1-64e9a7c.jpg?quality=90&resize=620,413"
+                alt="planet earth" class="center">
+            <p>This is the Earth.</p>
+            <p>The Earth should be kept clean so we can all live, a nice and happy life.</p>
+        </section>
+        <section id="contact-form">
+            <h3>Sign up below if you want to be updated on Mother Earth's daily activities.</h3>
+            <form>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="Email Address" />
+                <button>Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>(c) Duncan Byrne - 2021- duncanbyrne69@outlook.com</footer>
+</body>
+
+</html>
